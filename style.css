@@ -94,12 +94,19 @@ h2{
 
 .div_checkboxs{
     height: 92%;
-    /* border: solid; */
     overflow: auto;
-    padding-right: 10px;
+    
 }
 
 .div_checkbox{
     display: flex;
     margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#input {
+
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
 }
