@@ -24,20 +24,20 @@
             pontos++;
             console.log('CPU completo!');
 
-            c_cpu_cs.style.backgroundColor = '#DDFFBB';
-            p_cpu.style.backgroundColor = '#DDFFBB';
-            u_cpu.style.backgroundColor = '#DDFFBB';
+            // c_cpu_cs.style.backgroundColor = '#DDFFBB';
+            // p_cpu.style.backgroundColor = '#DDFFBB';
+            // u_cpu.style.backgroundColor = '#DDFFBB';
         } else {
             console.log('CPU não completo!');
 
-            c_cpu_cs.style.backgroundColor = '#FF7878';
-            p_cpu.style.backgroundColor = '#FF7878';
-            u_cpu.style.backgroundColor = '#FF7878';
+            // c_cpu_cs.style.backgroundColor = '#FF7878';
+            // p_cpu.style.backgroundColor = '#FF7878';
+            // u_cpu.style.backgroundColor = '#FF7878';
         }
 
         // 2. ULA
         var u_ula_quad = ipt_u_ula_quad.value;
-        var l_ula = l_ula.value;
+        var l_ula = ipt_l_ula.value;
         var a_ula_flash = ipt_a_ula_flash.value;
 
         var ula = u_ula_quad == 'U' && l_ula == 'L' && a_ula_flash == 'A';
@@ -46,15 +46,15 @@
             pontos++;
             console.log('ULA completa!');
 
-            c_cpu_cs.style.backgroundColor = '#DDFFBB';
-            p_cpu.style.backgroundColor = '#DDFFBB';
-            u_cpu.style.backgroundColor = '#DDFFBB';
+            // c_cpu_cs.style.backgroundColor = '#DDFFBB';
+            // p_cpu.style.backgroundColor = '#DDFFBB';
+            // u_cpu.style.backgroundColor = '#DDFFBB';
         } else {
             console.log('ULA não completa!');
 
-            c_cpu_cs.style.backgroundColor = '#FF7878';
-            p_cpu.style.backgroundColor = '#FF7878';
-            u_cpu.style.backgroundColor = '#FF7878';
+            // c_cpu_cs.style.backgroundColor = '#FF7878';
+            // p_cpu.style.backgroundColor = '#FF7878';
+            // u_cpu.style.backgroundColor = '#FF7878';
         }
 
         // 3. Registradores
@@ -178,39 +178,39 @@
             pontos++;
             console.log('Memória de Massa completa!');
 
-            m_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            e_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            m1_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            o_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            r_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            i_memoriaDeMassa_i7.style.backgroundColor = '#DDFFBB';
-            a_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            d_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            e1_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            m2_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            a1_memoriaDeMassa_dualCore.style.backgroundColor = '#DDFFBB';
-            s_memoriaDeMassa_addressBus.style.backgroundColor = '#DDFFBB';
-            s1_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            a2_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
-            a2_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // m_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // e_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // m1_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // o_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // r_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // i_memoriaDeMassa_i7.style.backgroundColor = '#DDFFBB';
+            // a_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // d_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // e1_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // m2_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // a1_memoriaDeMassa_dualCore.style.backgroundColor = '#DDFFBB';
+            // s_memoriaDeMassa_addressBus.style.backgroundColor = '#DDFFBB';
+            // s1_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // a2_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
+            // a2_memoriaDeMassa.style.backgroundColor = '#DDFFBB';
         } else {
             console.log('Memória de massa incompleta!');
 
-            m_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            e_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            m1_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            o_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            r_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            i_memoriaDeMassa_i7.style.backgroundColor = '#FF7878';
-            a_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            d_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            e1_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            m2_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            a1_memoriaDeMassa_dualCore.style.backgroundColor = '#FF7878';
-            s_memoriaDeMassa_addressBus.style.backgroundColor = '#FF7878';
-            s1_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            a2_memoriaDeMassa.style.backgroundColor = '#FF7878';
-            a2_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // m_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // e_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // m1_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // o_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // r_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // i_memoriaDeMassa_i7.style.backgroundColor = '#FF7878';
+            // a_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // d_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // e1_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // m2_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // a1_memoriaDeMassa_dualCore.style.backgroundColor = '#FF7878';
+            // s_memoriaDeMassa_addressBus.style.backgroundColor = '#FF7878';
+            // s1_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // a2_memoriaDeMassa.style.backgroundColor = '#FF7878';
+            // a2_memoriaDeMassa.style.backgroundColor = '#FF7878';
         }
 
         // 9. DMA
@@ -393,3 +393,5 @@
             alert("Parabéns, você concluiu a cruzadinha!");
         }
     }
+
+    // Desenvolvido por: Kauanny Tenório, Vinicius Costa e Lucas Santos
