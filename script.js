@@ -391,6 +391,8 @@
         // Se finalizado e conseguir 18 pontos, o usuário irá ganhar o jogo
         if (pontos == 18) {
             alert("Parabéns, você concluiu a cruzadinha!");
+        } else {
+            alert("Ainda falta completar todas as palavras!")
         }
     }
 
